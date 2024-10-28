@@ -15,7 +15,7 @@ git remote -v
 ````
 ----------------------------
 ```
-git add.
+git add .
 git commit -m "proyecto base"
 git put origin master
 ```
