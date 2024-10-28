@@ -4,7 +4,7 @@
 ```
 git init
 ```
-- Referencia del repositorio loal con el repositorio remoto (GITHUB)
+- Referencia del repositorio loal con el repositorio remoto (GITHUB) hola
 ````
 git remote add origin https://github.com/PamelaPogo/Backend_3B_Pamela.git
 ````
