@@ -8,6 +8,7 @@ git init
 ````
 git remote add origin https://github.com/PamelaPogo/Backend_3B_Pamela.git
 ````
+
 # Validar refenrencia
 ````
 git remote -v
