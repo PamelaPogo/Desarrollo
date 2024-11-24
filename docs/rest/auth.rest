@@ -1,9 +1,13 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9e0e8eadbc618168f2fec4a59ccc637a435bdd6a
 POST http://127.0.0.1:3000/auth/register
 Content-Type: application/json
 
 {
     "name":"prueba",
+<<<<<<< HEAD
     "email": "prueba@email.com",
     "password":"12345678"
 
@@ -12,11 +16,21 @@ Content-Type: application/json
 
 ### login  sin conexion a BD
 
+=======
+    "email": "casa@gmail.com",
+    "password": "hola12"
+}
+
+
+
+### login sin conexion a BDD
+>>>>>>> 9e0e8eadbc618168f2fec4a59ccc637a435bdd6a
 POST http://127.0.0.1:3000/auth/login
 Content-Type: application/json
 
 {
     "name":"prueba2",
+<<<<<<< HEAD
     "email": "prueba2@email.com",
     "password": "1234657"
     
@@ -26,3 +40,13 @@ Content-Type: application/json
 
 GET http://127.0.0.1:3000/users
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsImlkIjoxLCJpYXQiOjE3MzEzNjA1NTYsImV4cCI6MTczMTM2MDYxNn0.UE-jhqOExdpLhL9iQqfArfll20hZCj-20RzD3-_H9qQ
+=======
+    "email":"prueba@gmail.com",
+    "password": "123456789"
+}
+
+
+### users
+GET http://127.0.0.1:3000/users
+Authorization: Bearer eyJhbGcioiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJl
+>>>>>>> 9e0e8eadbc618168f2fec4a59ccc637a435bdd6a

@@ -1,6 +1,7 @@
 import { Module } from '@nestjs/common';
 import { databaseProvider } from './database.providers';
 import { ConfigService } from 'src/config/config.service';
+<<<<<<< HEAD
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { ConfigModule } from 'src/config/config.module';
 import { config } from 'dotenv';
@@ -32,4 +33,13 @@ import { config } from 'dotenv';
 })
 export class DatabaseModule {
     
+=======
+
+@Module({
+    providers:[...databaseProvider, ConfigService],
+    exports:[...databaseProvider]
+})
+export class DatabaseModule {
+
+>>>>>>> 9e0e8eadbc618168f2fec4a59ccc637a435bdd6a
 }
